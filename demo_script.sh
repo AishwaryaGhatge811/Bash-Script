@@ -17,4 +17,4 @@ pip install django
 echo "----------created the virtual evn----------------"
 export LD_LIBRARY_PATH="/usr/local/lib"
 echo "-------now running the application---------"
-python  manage.py runserver 10.95.219.191:8000 
+python3 manage.py runserver 10.95.219.191:8000 
