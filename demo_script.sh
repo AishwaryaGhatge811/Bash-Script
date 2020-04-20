@@ -3,13 +3,13 @@
 mkdir djangofolder_demoscript
 cd djangofolder_demoscript
 echo "-----------Created the new folder----------"
-git clone https://github.com/AishwaryaGhatge811/Django-App.git
-cd Django-App
+git clone https://github.com/AishwaryaGhatge811/Library-Management-System-Application.git
+cd Library-Management-System-Application
 echo "-----installing all the dependenices----------"
 pip install -r requirement.txt
 echo "------then go to folder where my folder is present---------"
 ls
-cd assignment1
+cd Main_Project
 echo "----------------creating the virtual env-------------"
 virtualenv venv 
 source venv/bin/activate
