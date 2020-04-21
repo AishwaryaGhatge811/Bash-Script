@@ -6,7 +6,7 @@ echo "-----------Created the new folder----------"
 git clone https://github.com/AishwaryaGhatge811/Library-Management-System-Application.git
 cd Library-Management-System-Application
 echo "-----installing all the dependenices----------"
-pip install -r requirement.txt
+pip install -r requirements.txt
 echo "------then go to folder where my folder is present---------"
 ls
 cd Main_Project
