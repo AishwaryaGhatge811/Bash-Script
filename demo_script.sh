@@ -12,7 +12,7 @@ ls
 cd Main_Project
 echo "----------------creating the virtual env-------------"
 virtualenv venv 
-python -V
+virtualenv --python=/usr/bin/python3.6 venv
 source venv/bin/activate
 pip install django
 echo "----------created the virtual evn----------------"
