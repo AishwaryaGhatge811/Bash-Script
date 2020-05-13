@@ -32,4 +32,4 @@ source venv/bin/activate
 export LD_LIBRARY_PATH="/usr/local/lib"
 echo "-----now running the application -----"
 python manage.py migrate
-python3 manage.py runserver 10.95.219.191:8000
+python manage.py runserver 10.95.219.105:8000
